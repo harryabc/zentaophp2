@@ -1,7 +1,7 @@
 <?php
 $config->installed    = true;  
 $config->debug        = true;  
-$config->requestType  = 'GET';
+$config->requestType  = 'PATH_INFO';
 $config->requestFix   = '-';
 $config->webRoot      = '/'; 
 
