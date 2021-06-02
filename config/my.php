@@ -3,7 +3,7 @@ $config->installed    = true;
 $config->debug        = true;  
 $config->requestType  = 'PATH_INFO';
 $config->requestFix   = '-';
-$config->webRoot      = '/'; 
+$config->webRoot      = '/blog'; 
 
 $config->db->host     = getenv("MYSQL_HOST");
 $config->db->port     = '3306';
