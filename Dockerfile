@@ -1,3 +1,2 @@
-FROM php:7-apache
+FROM registry.local/cloudos/php:2.7
 COPY . /var/www/html/
-RUN chmod 777 -R /var/www/html
